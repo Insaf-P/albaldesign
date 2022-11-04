@@ -1582,12 +1582,14 @@ a.logo-blck {
     
 }
 section.project h2 {
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 15px;
-    /* margin-bottom: 5px; */
+    margin-bottom: 20px;
 }
 p.location{
     margin-bottom: 0;
+    font-size: 14px;
+    line-height: 24px;
 }
 .social {
     display: block;
@@ -1617,10 +1619,14 @@ li.drop-down {
 .pad-pt-pb{
     padding: 100px 0;
 }
+.about-sec{
+    padding: 20px 0;
+}
 
 section.about-sec h3 {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
+    letter-spacing: 2px;
 }
 section.about-sec span {
     font-style: italic;
@@ -1643,19 +1649,20 @@ section.about-sec .circle-wrapper p{
 }
 
 section.about-sec .about-con{
-    margin-top: 40px;
-    margin-bottom: 120px;
+    margin-top: 80px;
+    margin-bottom: 248px;
+    font-size: 14px;
 }
 section.about-sec .about-breef {
     padding: 85px;
 }
 
 section.services h2 {
-    font-size: 28px;
+    font-size: 22px;
     margin-top: 15px;
 }
 a.project-view {
-    font-size: 14px;
+    font-size: 12px;
 }
 a.project-view::before{
     content:url('../img/Line\ 1.svg');
@@ -1696,9 +1703,30 @@ section.project {
     display: none;
 }
 
+section.services {
+    padding: 50px 0;
+}
+section.services img {
+    height: 564px;
+    object-fit: cover;
+}
+
+span.sqr {
+    font-size: 14px;
+    line-height: 27px;
+    margin-top: -5px !important;
+    display: block;
+}
+section.about-sec img {
+    height: 650px;
+    object-fit: cover;
+}
+
+
+
 @media screen and (min-width: 1920px) {
     .container{
-        max-width: 1500px !important;
+        max-width: 1630px !important;
     }
 }
 
@@ -1706,7 +1734,7 @@ section.project {
 /* ======= Media Query  ======= */
 @media screen and (min-width: 1200px) {
     .container {
-        max-width: 1200px;
+        max-width: 1250px;
         padding-left: 30px;
         padding-right: 30px;
     }
