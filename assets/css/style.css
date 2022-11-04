@@ -1721,6 +1721,9 @@ section.about-sec img {
     height: 650px;
     object-fit: cover;
 }
+a.active{
+    color: #c5a47e !important;
+}
 
 
 
