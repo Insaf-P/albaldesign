@@ -1668,6 +1668,7 @@ a.project-view {
     font-size: 12px;
     display: block;
     text-align: center;
+    font-weight: 400;
 }
 a.project-view::before{
     content:url('../img/Line\ 1.svg');
@@ -1791,13 +1792,35 @@ iframe.map-box {
 
 .office-info {
     background-color: #b8ae9d;
+    background-color: #b8ae9d;
+    padding: 58px !important;
+    display: block;
 }
 
 .contact-deatils{
     padding: 50px 0;
 }
+.contact-deatils h5{
+    color: #fff;
+    font-weight: 400;
+    font-size: 11px;
+}
 .contact-deatils h2{
-    font-size: 32px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+.contact-deatils a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.contact-deatils p{
+    color: #fff;
+    margin-bottom: 0;
+}
+.contact-deatils .phone p{
+    margin-bottom: 0 !important;
 }
 
 .togo-fixed-sidebar .togo-menu-social-media .social a::before{
