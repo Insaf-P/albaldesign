@@ -1800,6 +1800,16 @@ iframe.map-box {
     font-size: 32px;
 }
 
+.togo-fixed-sidebar .togo-menu-social-media .social a::before{
+    background-color: transparent !important;
+    /* color: #c5a47e !important; */
+
+}
+.togo-fixed-sidebar .togo-menu-social-media .social a:hover{
+    color: #c5a47e !important;
+}
+
+
 
 /* ======= Media Query  ======= */
 

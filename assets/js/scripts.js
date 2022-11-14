@@ -303,11 +303,48 @@ $(document).ready(function () {
     })
 
 
-    window.addEventListener("DOMContentLoaded", event => {
-        const audio = document.querySelector("audio");
-        audio.volume = 0.2;
+    jQuery(document).ready(function($) {
+        // clear cf7 error msg on mouseover
+        $(".wpcf7-form-control-wrap").mouseover(function(){
+            $obj = $("span.wpcf7-not-valid-tip",this);
+            $obj.css('display','none');
+        });
+            jQuery(".video-item").each(function(index, element) {
+            var a = document.getElementById("myaud");
+            $(this).on("click", function(){
+                if(!a.paused){
+                    a.pause();
+                    $(".ad-control").removeClass("paush1");
+                }
+            })
+        });
+        });
+    var audio = document.getElementById("myaud");
+    var play = $.cookie("audioplay");
+    if(play == "0"){
+        audio.pause();
+    } else {
         audio.play();
-      });
+    }
+    if(audio.paused){
+        $(".ad-control").removeClass("paush1");
+    } else {
+        $(".ad-control").addClass("paush1");
+    }
+    var button = document.getElementById("plp");
+    button.addEventListener("click", function(){
+      if(audio.paused){
+        audio.play();
+        $(".ad-control").addClass("paush1");
+        $.removeCookie('audioplay', { path: '/' });
+        $.cookie("audioplay", "1", {path: '/' });
+      } else {
+        audio.pause();
+        $(".ad-control").removeClass("paush1");
+        $.removeCookie('audioplay', { path: '/' });
+        $.cookie("audioplay", "0", {path: '/' });
+      }
+    });
 
 
 
