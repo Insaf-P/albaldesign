@@ -164,8 +164,8 @@ $(window).on("load", function () {
     var wind = $(window);
     // Preloader
     setTimeout(function () {
-            $("#loader").fadeOut(200);
-        }, 200);
+            $("#loader").fadeOut(500);
+        }, 500);
     // stellar
     wind.stellar();
     // contact form validator
@@ -301,3 +301,13 @@ $(document).ready(function () {
         $("#interor-residential").show()
         $("#interor-commercial").hide()
     })
+
+
+    window.addEventListener("DOMContentLoaded", event => {
+        const audio = document.querySelector("audio");
+        audio.volume = 0.2;
+        audio.play();
+      });
+
+
+
