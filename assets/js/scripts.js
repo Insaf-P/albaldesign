@@ -164,7 +164,7 @@ $(window).on("load", function () {
     var wind = $(window);
     // Preloader
     setTimeout(function () {
-            $("#loader").fadeOut(500);
+            $("#loader").slideUp(500);
         }, 500);
     // stellar
     wind.stellar();
@@ -347,4 +347,16 @@ $(document).ready(function () {
     });
 
 
+    
+
+      /* =====================================
+           Parallax
+    ====================================== */
+
+    if ($(window).width() > 992) {
+        $(".parallax").parallaxie({
+            speed: 0.55,
+            offset: 0,
+        });
+    }
 
