@@ -22,7 +22,7 @@ include 'inc/nav.php';
 <!--All Sections Start From Here -->
         
         <section class="about-sec section">
-            <div class="container">
+            <div class="container-fulid">
                 <div class="row p-4">
                     <div class="col-md-6 wow fadeInUp">
                         <img src="assets/img/aboutus.jpg" alt="" class="img-fluid">
@@ -57,23 +57,30 @@ include 'inc/nav.php';
 
      
         <section class="services section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 ">
+            <div class="container-fluid">
+                <div class="row p-4">
+                    <div class="col-md-4">
                         <div class="count">01/</div>
+                        <div class="service-img">
                         <img src="assets/img/projects/1.jpg" alt="">
+                        </div>
                         <h2>Interior Design</h2>
                         <a class="project-view" href="#">View Project</a>
+                        
                     </div>
                     <div class="col-md-4">
                         <div class="count">02/</div>
-                        <img src="assets/img/projects/2.jpg" alt="">
+                        <div class="service-img">
+                            <img src="assets/img/projects/2.jpg" alt="">
+                        </div>
                         <h2>Architecural Design</h2>
                         <a class="project-view" href="#">View Project</a>
                     </div>
                     <div class="col-md-4">
                         <div class="count">03/</div>
-                        <img src="assets/img/projects/4.jpg" alt="">
+                        <div class="service-img">
+                            <img src="assets/img/projects/4.jpg" alt="">
+                        </div>
                         <h2>Product & Graphic Design</h2>
                         <a class="project-view" href="#">View Project</a>
                     </div>

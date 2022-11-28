@@ -6,7 +6,7 @@ include 'inc/nav.php';
 <!--All Sections Start From Here -->
 
         <Section class="project-deatils">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row ">
                     <div class="col-md-8 pr-0">
                         <img src="assets/img/projects/project-details/1.jpg" alt="" class="img-fluid">

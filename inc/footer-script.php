@@ -1,21 +1,32 @@
 </div>
+
+<!-- <audio id="myaud" controls autoplay loop playsinline data-keepplaying style="display:none;">
+          <source src="https://www.albaldesign.com/wp-content/themes/albal/assets/images/yanni.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>  -->
   
     <script src="assets/js/jquery-3.0.0.min.js"></script>
     <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.waypoints.min.js"></script>
-    <!-- <script src="assets/js/owl.carousel.min.js"></script> -->
+    <!-- <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/jquery.stellar.min.js"></script>
-    <!-- <script src="assets/js/YouTubePopUp.jquery.js"></script> -->
-    <script src="assets/js/validator.js"></script>
-    <!-- <script src="assets/js/autotype.js"></script> -->
+    <script src="assets/js/YouTubePopUp.jquery.js"></script>
+    <script src="assets/js/validator.js"></script> -->
+    <script src="assets/js/autotype.js"></script>
     <script src="assets/js/bootstrap.menu.js"></script>
     <script src="assets/js/smooth-scroll.min.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.js'></script>
     <script src="assets/js/section-scroll.js"></script>
+    <script src="../node_modules/smooth-scrollbar/dist/smooth-scrollbar.js"></script>
     <script src="assets/js/animation.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script>
+      var Scrollbar = window.Scrollbar;
+    
+      Scrollbar.init(document.querySelector('#my-scrollbar'), options);
+    </script>
     
     <script>
         // Scroll Section
@@ -52,6 +63,8 @@
       }
 
     </script>
+
+
 
     
 

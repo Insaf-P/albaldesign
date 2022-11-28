@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="assets/css/bootstrap.menu.css" />
     <link rel="stylesheet" href="assets/css/animate.min.css" />
     <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <!-- <link rel="stylesheet" href="assets/css/YouTubePopUp.css" /> -->
-    <!-- <link rel="stylesheet" href="assets/css/owl.carousel.min.css" /> -->
-    <!-- <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" /> -->
+    <link rel="stylesheet" href="assets/css/YouTubePopUp.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
    
 </head>

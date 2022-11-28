@@ -24,14 +24,14 @@
 					<!-- <li class="current-menu"><a href="index.html">Home</a></li> -->
 					<li class="drop-down wow fadeInUp" data-wow-duration="2s"><a href="#">Project</a>
                         <ul class="drop-dwn-list">
-                        <li class="drop-down"><a href="#">Interior</a>
+                        <li class="drop-down <?php if($page == 'services.php'){echo 'active';}?> wow fadeInUp"><a href="#">Interior Design</a>
                         <ul class="drop-dwn-list">
-                            <li class="drop-down"><a href="#">Commercial</a>
-                            <li class="drop-down"><a href="#">Residential</a>
+                            <li class="drop-down"><a class="<?php if($page == 'commercial.php'){echo 'active';}?> wow fadeInUp" href="commercial.php">Commercial</a>
+                            <li class="drop-down"><a class="<?php if($page == 'residential.php'){echo 'active';}?> wow fadeInUp" href="residential.php">Residential</a>
                         </ul>
-                        <li class="drop-down"><a href="#">Architectural Design</a></li>
-                        <li class="drop-down"><a href="#">Product & Graphic Design</a></li>
-                 </ul>
+                            <li class="drop-down"><a class="<?php if($page == 'architectural.php'){echo 'active';}?> wow fadeInUp" href="architectural.php">Architectural Design</a></li>
+                            <li class="drop-down"><a class="<?php if($page == 'productgraphic.php'){echo 'active';}?> wow fadeInUp" href="productgraphic.php">Product & Graphic Design</a></li>
+                        </ul>
                     </li>
                         <!-- <li><a href="about-us.html">About Us</a></li> -->
                         
@@ -39,6 +39,15 @@
 					<li><a class="<?php if($page == 'contact.php'){echo 'active';}?> wow fadeInUp" data-wow-duration="3s" href="contact.php"> Contact</a></li>
 				</ul>
 			</nav>
+
+            <div class="menu-mobile">
+            <ul>
+                <li><a class="wow fadeInUp" data-wow-duration="3s" href="#">Portfolio</a></li>
+                <li><a class="wow fadeInUp" data-wow-duration="4s" href="#">Questionaire</a></li>
+                <!-- <audio id="#my_audio" src="assets/mp3/Fashion-Luxury-Lounge.mp3"></audio> -->
+                <!-- <button id="plp" class="ad-control"><i class="fa fa-volume-off"></i><i class="fa fa-volume-up"></i>kk</button> -->
+            </ul>
+        </div>
             
 			<!-- Menu social media -->
 			<div class="togo-menu-social-media">
@@ -60,8 +69,7 @@
             <ul>
                 <li><a class="wow fadeInUp" data-wow-duration="3s" href="#">Portfolio</a></li>
                 <li><a class="wow fadeInUp" data-wow-duration="4s" href="#">Questionaire</a></li>
-                <!-- <audio id="#my_audio" src="assets/mp3/Fashion-Luxury-Lounge.mp3"></audio> -->
-                <!-- <button id="plp" class="ad-control"><i class="fa fa-volume-off"></i><i class="fa fa-volume-up"></i>kk</button> -->
+                <!-- <button id="plp" class="ad-control paush1"><i class="fa fa-volume-off"></i><i class="fa fa-volume-up"></i>lll</button>  -->
             </ul>
         </div>
     </div>

@@ -203,6 +203,6 @@
 
 wow = new WOW({
 	animateClass: 'animated',
-	offset: 160,
+	offset: 100,
 })
 wow.init()
