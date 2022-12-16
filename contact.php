@@ -15,7 +15,7 @@ include 'inc/nav.php';
                                <img class="img-fluid map-img" src="assets/img/ADS-MAP.webp" alt="">
                             </div>
                         </div>
-                        <div class="col-md-6 pl-0 office-info">
+                        <div class="col-md-6 office-info">
                            <div class="row">
                             <div class="col-md-12 wow fadeInUp" data-wow-duration="4s"><h2>ALABA DESIGN STUDIO</h2></div>
                             <div class="conatc-section-one">

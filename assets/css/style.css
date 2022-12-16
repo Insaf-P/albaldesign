@@ -1429,7 +1429,7 @@ button.mfp-arrow {
 }
 
 button, input, textarea {
-    color: #777;
+    color: #fff;
 }
 
 
@@ -1803,7 +1803,7 @@ a.project-view:hover::after{
 .project-box img{
     transform: scale(1);
     transition: all .2s ease-out;
-    /* height: 346px; */
+    height: 346px;
 }
 .project-box:hover img{
     transform: scale(1.1);
@@ -1920,7 +1920,7 @@ iframe.map-box {
 .office-info {
     background-color: #b8ae9d;
     background-color: #b8ae9d;
-    padding: 30px !important;
+    padding: 30px 60px !important;
     display: block;
 }
 
@@ -1939,7 +1939,7 @@ iframe.map-box {
 }
 .contact-deatils a{
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
 }
 .contact-deatils p{
@@ -2032,7 +2032,7 @@ iframe.map-box {
 
 
 .contact-deatils hr{
-    border: 2px solid #fff;
+    border: 1.5px solid #fff;
     width: 100%;
     border-radius: 2px;
     background-color: #fff;
@@ -2072,6 +2072,21 @@ section.services img:hover{
   } */
 /* ======= Media Query  ======= */
 
+@media screen and (min-width: 1920px) {
+    /* .container{
+        max-width: 1630px !important;
+    } */
+    .project-box img{
+        height: 470px;
+        object-fit: cover;
+    }
+    .office-info{
+        display: flex !important;
+    }
+}
+
+
+
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1200px;
@@ -2091,15 +2106,7 @@ section.services img:hover{
     align-items: stretch !important;
 }
 /* 
-@media screen and (min-width: 1920px) {
-    .container{
-        max-width: 1630px !important;
-    }
-    .project-box img{
-        height: 446px;
-        object-fit: cover;
-    }
-}
+
 
 
 

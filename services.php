@@ -30,7 +30,16 @@ include 'inc/nav.php';
                     <div class="col-md-6 about-breef">
                         <h3 class="">ALBAL DESIGN STUDIO</h3>
                         <span class="">albal ( arabic meaning )</span>
-                        <p class="about-con"><b>**TO REVISE</b> We are,specialized Interior Architecture and all that comes with it as product design. fine arts, and more. In collaboration with international talented professional we aim to enrich lives.</p>
+                        <p class="about-con">ALBAL is a brand for <b>contemporary design</b> based in Dubai. We are a dynamic International Design Team
+of talented individuals, offering Interior Design Services to our clients for design concepts across the
+sectors of Commercial & Residential properties, Hospitality, and F&B Retail in Dubai.
+
+With a skillful team, we provide the utmost understanding to our clients’ wants and needs. We use our
+design process of “Tafaseel” that provides the ability to take each of our clients’ visions and interpret
+them through design. Clients receive their tailored design as through drawing their dream, we bring it to
+life. As the old saying goes, “A picture is worth a thousand words.” We are committed to create unique
+special experiences that will “tell the story” of every design journey we take.
+</p>
                         <div class="circle-wrapper">
                             <div class="circle-box">
                                 <div class="circle"></div>
